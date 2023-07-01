@@ -13,5 +13,5 @@
         }
     localStorage.setItem('view_count',count)
   }
-container.innerHTML = count
+container.innerHTML += count
   
