@@ -12,7 +12,6 @@
             count += digits[Math.floor(Math.random() * 10)]
         }
     localStorage.setItem('view_count',count)
-  container.innerHTML += count
   }
-container.innerHTML += count
+container.innerHTML = count
   
